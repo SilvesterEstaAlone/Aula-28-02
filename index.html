@@ -14,11 +14,55 @@
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid degra ">
-        <h1 class="display-4 text-center text-title">João Pedro</h1>
-        <p class="lead text-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus error ea dicta iste, ratione quam itaque dolor.</p>
+    <div class="jumbotron jumbotron-fluid degra  d-none d-sm-block">
+        <h1 class="display-4 text-center text-title ">João Pedro</h1>
+        <p class="lead  text-subtitle"><i class="mdi mdi-console"></i> Proximo programador da Etec a se tornar um programador FullStack</p>
     </div>
-    <div class="container-fluid text-center bg-dark">
+    <div class="jumbotron jumbotron-fluid bg-title d-block d-sm-none  ">
+        <h1 class="display-4 text-center text-title ">João Pedro</h1>
+        <p class="lead  text-subtitle-xs text-white"><i class="mdi mdi-console"></i> Proximo programador da Etec a se tornar um programador FullStack</p>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-n5">
+        <a class="navbar-brand d-block d-sm-none " href="index.html"><i class=" mdi mdi-code-braces"></i></a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse text-white">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">Dicas de programação <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Quem sou eu </a>
+                </li>
+                <!-- Menu dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-secondary bg-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <!-- Fim do dropdown -->
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">One Direction ??</a>
+                    <a class="dropdown-item" href="#">GUGU GAITEIRO</a>
+                </div>
+        </div>
+        </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid text-center bg-dark fixed-bottom">
         <div class="row">
             <div class="col-12">
                 <p class="text-white">Todos os direitos reservados</p>
@@ -29,9 +73,8 @@
         </div>
     </div>
 </body>
-<script src="js/bootstrap.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>
